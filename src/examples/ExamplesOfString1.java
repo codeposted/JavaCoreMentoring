@@ -16,7 +16,8 @@ public class ExamplesOfString1 {
 //	search the last position of a substring 
 	public static void example1() {
 		String strOrig = "Hello world, Hello Reader";
-		int lastIndex = strOrig.lastIndexOf("Hello");
+		
+		int lastIndex = strOrig.lastIndexOf("Rambo");
 
 		if (lastIndex == -1) {
 			System.out.println("Hello not found");

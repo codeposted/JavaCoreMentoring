@@ -3,9 +3,9 @@ package examples;
 public class ExampleOfSwitchWhileDoWhile6 {
 
 	public static void main(String[] args) {
-//		example1();
+		example1();
 //		example2();
-		example3();
+//		example3();
 	}
 
 //	example 1

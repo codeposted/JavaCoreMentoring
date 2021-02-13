@@ -3,24 +3,24 @@ package examples;
 public class ExampleOfExceptions5 {
 
 	public static void main(String[] args) {
-//		example1();
+		example1();
 		
 //		example2();
 		
-		example3(19);
+//		example3(19);
 	}
 
 //	If an error occurs, we can use try...catch to catch the error and execute some code to handle it:
 	public static void example1() {
-		int[] myNumbers = { 1, 2, 3 };
-		System.out.println(myNumbers[10]);
+//		int[] myNumbers = { 1, 2, 3 };
+//		System.out.println(myNumbers[10]);
 
-//		try {
-//			int[] myNumbers = { 1, 2, 3 };
-//			System.out.println(myNumbers[10]);
-//		} catch (Exception e) {
-//			System.out.println("Something went wrong.");
-//		}
+		try {
+			int[] myNumbers = { 1, 2, 3 };
+			System.out.println(myNumbers[10]);
+		} catch (Exception e) {
+			System.out.println("Something went wrong.");
+		}
 	}
 
 //	The finally statement lets you execute code, after try...catch, regardless of the result:
